@@ -16,7 +16,8 @@ export default function Footer() {
               <h3 className="font-bold text-lg">Solquex</h3>
             </div>
             <p className="text-muted-foreground mb-4">
-              Ein führender Anbieter von Bildungsspielen und interaktiven Lernerfahrungen.
+              Diese soziale Plattform ist ausschließlich für Nutzer ab 18 Jahren bestimmt. Der Zugang für Minderjährige
+              ist untersagt.
             </p>
             <div className="inline-block rounded-full bg-primary/10 px-3 py-1 text-sm font-medium">
               <span className="text-red-600 dark:text-red-500 font-bold">18+</span>
