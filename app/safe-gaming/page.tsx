@@ -1,97 +1,76 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Shield, Clock, Users, AlertTriangle, Heart } from "lucide-react"
+import { BookOpen, Coffee, Brain, AlertTriangle } from "lucide-react"
+import Link from "next/link"
 
-export default function SafeGamingPage() {
+export default function SafeGaming() {
   return (
-    <div className="container mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold mb-6 text-center">Verantwortungsvolles Spielen</h1>
-
-      <div className="max-w-3xl mx-auto mb-12">
-        <p className="text-lg text-muted-foreground text-center">
-          Obwohl unser Spiel keine Glücksspiel-Elemente enthält und kein echtes Geld involviert ist, fördern wir dennoch
-          verantwortungsvolles Spielverhalten und gesunde Spielgewohnheiten.
-        </p>
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-        <Card>
-          <CardHeader>
-            <div className="flex items-center space-x-3">
-              <Clock className="h-6 w-6 text-primary" />
-              <CardTitle>Zeitmanagement</CardTitle>
+    <section className="py-16 bg-muted/30">
+      <div className="container mx-auto px-4">
+        <div className="text-xs sm:text-sm text-muted-foreground bg-yellow-50 dark:bg-yellow-900/20 p-3 sm:p-4 rounded-lg border border-yellow-200 dark:border-yellow-800">
+          <div className="flex items-start space-x-2">
+            <AlertTriangle className="h-4 w-4 sm:h-5 sm:w-5 text-yellow-600 dark:text-yellow-400 flex-shrink-0 mt-0.5" />
+            <div>
+              <p className="mb-1 font-medium text-yellow-800 dark:text-yellow-300">Hinweis:</p>
+              <p>
+                Dies ist eine kostenlose soziale Plattform ohne realen Wert. Alle Inhalte sind virtuell und dienen
+                ausschließlich Unterhaltungs- und sozialen Zwecken.
+              </p>
             </div>
-          </CardHeader>
-          <CardContent>
-            <ul className="space-y-2">
-              <li className="flex items-start space-x-2">
-                <div className="rounded-full bg-primary/10 p-1 mt-0.5">
-                  <Clock className="h-4 w-4 text-primary" />
-                </div>
-                <span>Legen Sie feste Zeiten für das Spielen fest</span>
-              </li>
-              <li className="flex items-start space-x-2">
-                <div className="rounded-full bg-primary/10 p-1 mt-0.5">
-                  <Clock className="h-4 w-4 text-primary" />
-                </div>
-                <span>Machen Sie regelmäßige Pausen</span>
-              </li>
-              <li className="flex items-start space-x-2">
-                <div className="rounded-full bg-primary/10 p-1 mt-0.5">
-                  <Clock className="h-4 w-4 text-primary" />
-                </div>
-                <span>Achten Sie auf eine ausgewogene Freizeitgestaltung</span>
-              </li>
-            </ul>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <div className="flex items-center space-x-3">
-              <Heart className="h-6 w-6 text-primary" />
-              <CardTitle>Gesunde Spielgewohnheiten</CardTitle>
-            </div>
-          </CardHeader>
-          <CardContent>
-            <ul className="space-y-2">
-              <li className="flex items-start space-x-2">
-                <div className="rounded-full bg-primary/10 p-1 mt-0.5">
-                  <Heart className="h-4 w-4 text-primary" />
-                </div>
-                <span>Spielen Sie zur Unterhaltung, nicht als Flucht vor Problemen</span>
-              </li>
-              <li className="flex items-start space-x-2">
-                <div className="rounded-full bg-primary/10 p-1 mt-0.5">
-                  <Heart className="h-4 w-4 text-primary" />
-                </div>
-                <span>Achten Sie auf eine ergonomische Sitzposition</span>
-              </li>
-              <li className="flex items-start space-x-2">
-                <div className="rounded-full bg-primary/10 p-1 mt-0.5">
-                  <Heart className="h-4 w-4 text-primary" />
-                </div>
-                <span>Trinken Sie ausreichend Wasser während des Spielens</span>
-              </li>
-            </ul>
-          </CardContent>
-        </Card>
-      </div>
-
-      <div className="bg-muted/30 rounded-lg p-8 max-w-3xl mx-auto mb-12">
-        <div className="flex items-start space-x-3 mb-4">
-          <AlertTriangle className="h-6 w-6 text-yellow-600 dark:text-yellow-400 flex-shrink-0 mt-1" />
-          <h2 className="text-xl font-bold">Wichtiger Hinweis</h2>
+          </div>
         </div>
-        <p className="mb-4">
-          Unser Spiel "Der Bergbauer: Schütze deine Herde" ist ein Bildungsspiel ohne Glücksspiel-Elemente. Es gibt
-          keine Möglichkeit, echtes Geld zu gewinnen oder zu verlieren.
-        </p>
-        <p>
-          Dennoch möchten wir betonen, dass übermäßiges Spielen zu Problemen führen kann, wie Vernachlässigung sozialer
-          Kontakte, Schlafmangel oder Beeinträchtigung der Arbeit oder des Studiums.
-        </p>
+
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold mb-4">Soziales Spiel für Freizeit und Unterhaltung</h2>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            Entdecken Sie ein unterhaltsames Spielerlebnis, das Entspannung mit sozialer Interaktion und persönlicher
+            Entwicklung verbindet
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          {[
+            {
+              icon: <BookOpen className="h-10 w-10 text-primary" />,
+              title: "Bildungswert",
+              description:
+                "Lernen Sie spielerisch über alpine Traditionen, Landwirtschaft und die Kultur der österreichischen Bergregionen.",
+            },
+            {
+              icon: <Coffee className="h-10 w-10 text-primary" />,
+              title: "Entspannung",
+              description:
+                "Genießen Sie eine entspannende Spielerfahrung, die Ihnen hilft, dem Alltag zu entfliehen und neue Energie zu tanken.",
+            },
+            {
+              icon: <Brain className="h-10 w-10 text-primary" />,
+              title: "Persönliche Entwicklung",
+              description:
+                "Fördern Sie strategisches Denken, Ressourcenmanagement und Entscheidungsfindung durch unterhaltsame Herausforderungen.",
+            },
+          ].map((resource, index) => (
+            <Card key={index} className="bg-muted/30 border">
+              <CardHeader className="pb-2">
+                <div className="mb-2">{resource.icon}</div>
+                <CardTitle>{resource.title}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="mb-4">{resource.description}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+
+        <div className="mt-12 text-center">
+          <p className="text-muted-foreground max-w-2xl mx-auto mb-6">
+            Unser Spiel wurde entwickelt, um Unterhaltung mit Bildungswert zu verbinden. Es bietet eine sichere, soziale
+            Umgebung, in der Sie neue Kenntnisse erwerben und gleichzeitig Spaß haben können.
+          </p>
+
+          <Link href="/game" className="text-primary hover:underline font-medium">
+            Jetzt spielen und entdecken
+          </Link>
+        </div>
       </div>
-    
-    </div>
+    </section>
   )
 }

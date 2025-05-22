@@ -11,11 +11,11 @@ import TopDisclaimer from "@/components/top-disclaimer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Österreichischer Held - Bildungsspiel | Solquex",
+  title: "Österreichischer Held - Soziales Spiel | Solquex",
   description:
-    "Ein kostenloses Bildungsspiel nur zu Unterhaltungszwecken. Führen Sie Ihren Helden durch historische Abenteuer. Kein Echtgeld, kein Glücksspiel, keine Preise, ab 18 Jahren.",
+    "Ein kostenloses soziales Spiel nur zu Unterhaltungszwecken. Führen Sie Ihren Helden durch historische Abenteuer. Kein Echtgeld, kein Glücksspiel, keine Preise, ab 18 Jahren.",
   keywords:
-    "Bildungsspiel, österreichischer Held, soziales Spiel, kostenloses Spiel, kein Glücksspiel, historisches Abenteuer, Simulationsspiel, Lernspiel",
+    "Soziales Spiel, österreichischer Held, soziales Spiel, kostenloses Spiel, kein Glücksspiel, historisches Abenteuer, Simulationsspiel, soziales Spiel",
   icons: [
     { rel: "icon", url: "/favicon.ico" },
     { rel: "icon", url: "/favicon.png", type: "image/svg+xml" },
@@ -23,7 +23,6 @@ export const metadata: Metadata = {
     { rel: "icon", url: "/favicon-32x32.png", sizes: "32x32" },
     { rel: "icon", url: "/favicon-16x16.png", sizes: "16x16" },
   ],
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({

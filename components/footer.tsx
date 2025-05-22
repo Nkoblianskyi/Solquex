@@ -83,13 +83,13 @@ export default function Footer() {
         {/* Disclaimer */}
         <div className="border-t border-gray-200 dark:border-gray-800 mt-8 pt-8 text-sm text-muted-foreground">
           <p className="mb-4">
-            Diese Bildungsplattform ist ausschließlich für Nutzer ab 18 Jahren bestimmt. Der Zugang für Minderjährige
+            Diese soziale Plattform ist ausschließlich für Nutzer ab 18 Jahren bestimmt. Der Zugang für Minderjährige
             ist untersagt.
           </p>
           <p className="mb-4">
-            Für erwachsene Nutzer ist dies eine sichere und lehrreiche Erfahrung ohne jegliche finanzielle Aspekte. Alle
-            Inhalte sind virtuell und haben keinen realen Wert. Diese Plattform dient ausschließlich Bildungs- und
-            Unterhaltungszwecken.
+            Für erwachsene Nutzer ist dies eine sichere und unterhaltsame Erfahrung ohne jegliche finanzielle Aspekte.
+            Alle Inhalte sind virtuell und haben keinen realen Wert. Diese Plattform dient ausschließlich Unterhaltungs-
+            und sozialen Zwecken.
           </p>
           <p>
             Nutzen Sie die Plattform verantwortungsvoll und legen Sie regelmäßige Pausen ein, um ein ausgewogenes
@@ -101,8 +101,8 @@ export default function Footer() {
         <div className="border-t border-gray-200 dark:border-gray-800 mt-8 pt-8 text-sm text-muted-foreground text-center">
           <p>© {currentYear} Solquex. Alle Rechte vorbehalten.</p>
           <p className="mt-1">
-            Dies ist eine kostenlose Bildungsplattform ausschließlich zu Unterhaltungs- und Lernzwecken. Alle Inhalte
-            sind virtuell und haben keinen realen Wert.
+            Dies ist eine kostenlose soziale Plattform ausschließlich zu Unterhaltungs- und sozialen Zwecken. Alle
+            Inhalte sind virtuell und haben keinen realen Wert.
           </p>
         </div>
       </div>
