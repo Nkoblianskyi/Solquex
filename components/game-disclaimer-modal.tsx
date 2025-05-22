@@ -46,12 +46,12 @@ export default function GameDisclaimerModal({ isOpen, onClose }: GameDisclaimerM
 
         <div className="space-y-4 py-4">
           <div className="rounded-lg border p-4 bg-muted/30">
-            <h3 className="font-bold mb-2">Dies ist eine kostenlose Bildungsplattform:</h3>
+            <h3 className="font-bold mb-2">Dies ist eine kostenlose soziale Plattform:</h3>
             <ul className="list-disc pl-5 space-y-1 text-sm">
               <li>Dies ist eine virtuelle Lernumgebung ohne realen Wert</li>
               <li>Vollständig kostenlos ohne Geldeinsätze</li>
               <li>Keine Gewinne oder Auszahlungen mit realem Wert</li>
-              <li>Alle Inhalte sind virtuell und dienen ausschließlich Unterhaltungs- und Bildungszwecken</li>
+              <li>Alle Inhalte sind virtuell und dienen ausschließlich Unterhaltungs- und sozialen Zwecken</li>
             </ul>
           </div>
 

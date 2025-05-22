@@ -10,7 +10,7 @@ export default function FAQ() {
     {
       question: "Handelt es sich um ein Bildungsspiel?",
       answer:
-        "Ja, absolut. Es handelt sich um eine reine Bildungs- und Unterhaltungsplattform. Alle Inhalte sind virtuell, haben keinen realen Wert und dienen ausschließlich dem Lernen über alpine Traditionen und Kultur. Es gibt keine Möglichkeit, echtes Geld einzusetzen oder zu gewinnen.",
+        "Ja, absolut. Es handelt sich um eine reine soziale und Unterhaltungsplattform. Alle Inhalte sind virtuell, haben keinen realen Wert und dienen ausschließlich der Unterhaltung und sozialen Interaktion. Es gibt keine Möglichkeit, echtes Geld einzusetzen oder zu gewinnen.",
     },
     {
       question: "Warum ist das Spiel erst ab 18 Jahren?",
@@ -20,7 +20,7 @@ export default function FAQ() {
     {
       question: "Was lerne ich in diesem Spiel?",
       answer:
-        "Das Spiel vermittelt Wissen über traditionelle alpine Landwirtschaft, das Leben der Bergbauern in Österreich, lokale Flora und Fauna sowie kulturelle Traditionen der Alpenregion.",
+        "Das Spiel bietet Unterhaltung und soziale Interaktion rund um traditionelle alpine Landwirtschaft, das Leben der Bergbauern in Österreich, lokale Flora und Fauna sowie kulturelle Traditionen der Alpenregion.",
     },
   ]
 

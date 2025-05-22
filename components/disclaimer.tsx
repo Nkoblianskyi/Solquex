@@ -29,7 +29,7 @@ export default function Disclaimer({ type = "main" }: DisclaimerProps) {
               <li>Es ist vollständig kostenlos und erfordert keine Geldeinsätze</li>
               <li>Es gibt keine Gewinne, Preise oder Boni mit realem Wert</li>
               <li>Alle Inhalte und Ressourcen sind virtuell und haben keinen realen Wert</li>
-              <li>Ausschließlich zu Unterhaltungs- und Bildungszwecken</li>
+              <li>Ausschließlich zu Unterhaltungs- und sozialen Zwecken</li>
               <li>Für Benutzer ab 18 Jahren bestimmt</li>
             </ul>
 
@@ -63,7 +63,7 @@ export default function Disclaimer({ type = "main" }: DisclaimerProps) {
 
         <p>
           "Der Bergbauer: Schütze deine Herde" ist ein kostenloses soziales Spiel, das ausschließlich zu Unterhaltungs-
-          und Bildungszwecken entwickelt wurde. Es handelt sich um eine virtuelle Plattform ohne realen Wert und bietet
+          und sozialen Zwecken entwickelt wurde. Es handelt sich um eine virtuelle Plattform ohne realen Wert und bietet
           keine Möglichkeit, echtes Geld zu gewinnen oder zu verlieren.
         </p>
 
@@ -74,7 +74,7 @@ export default function Disclaimer({ type = "main" }: DisclaimerProps) {
           <li>Keine Echtgeld-Transaktionen stattfinden</li>
           <li>Keine Preise, Gewinne oder Boni mit realem Wert ausgegeben werden</li>
           <li>Alle Inhalte und Ressourcen virtuell sind und keinen realen Wert haben</li>
-          <li>Das Spiel ausschließlich der Unterhaltung und Bildung dient</li>
+          <li>Das Spiel ausschließlich der Unterhaltung und sozialen Interaktion dient</li>
           <li>Das Spiel für Personen unter 18 Jahren nicht zugänglich ist</li>
         </ul>
 
